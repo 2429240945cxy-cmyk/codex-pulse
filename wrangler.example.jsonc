@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "codex-pulse",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-10-29",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "codex-pulse",
+      "database_id": "REPLACE_WITH_YOUR_DATABASE_ID"
+    }
+  ]
+}

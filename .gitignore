@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.openai/*.local.*
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!.env.example
+config.local.json
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+.wrangler/
+wrangler.local.jsonc
+*.tar.gz

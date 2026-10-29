@@ -1,0 +1,21 @@
+{
+  "name": "codex-pulse",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "test": "node --test tests/worker.test.mjs && python3 -m unittest discover -s tests -p 'test_*.py'",
+    "dev": "npm run build && node scripts/preview.mjs",
+    "validate": "node scripts/validate-artifact.mjs"
+  },
+  "description": "Private, real-time performance and usage dashboard for OpenAI Codex.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2429240945cxy-cmyk/codex-pulse.git"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
